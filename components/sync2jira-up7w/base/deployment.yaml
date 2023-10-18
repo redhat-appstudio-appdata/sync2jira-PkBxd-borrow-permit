@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: sync2jira-up7w
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/sync2jira/sync2jira-up7w@sha256:31a89f4a1e979551ef330d1deb5098fad4ee7a3dd6f86cc665411581760ce0d9
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/sync2jira/sync2jira-up7w@sha256:4246bd1fdc716ae50a209f3aa6d117044a53c8cf809b2ec1d764c49c26351615
         imagePullPolicy: Always
         name: container-image
         ports:
