@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/sync2jira/sync2jira-up7w@sha256:d9aea8976fe340017ede83acc09d0aa9a7b682750b249a2516f4011936dddd72
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/sync2jira/sync2jira-up7w@sha256:31a89f4a1e979551ef330d1deb5098fad4ee7a3dd6f86cc665411581760ce0d9
         name: container-image
         resources: {}
 status: {}
