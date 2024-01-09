@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: sync2jira
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/sync2jira/sync2jira@sha256:aa6d68e0078a45ddb50c89385040580fff5916f96ac472c081d135b9361fb741
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/sync2jira/sync2jira@sha256:047c6de036c7434e56049b2547c0f8ad9452d76e48314335591880e2d5fe21ed
         name: container-image
         resources: {}
 status: {}
